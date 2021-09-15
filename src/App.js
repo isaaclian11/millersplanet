@@ -10,7 +10,7 @@ function App() {
         <title>Interstellar - Time Elapsed on Miller's Planet</title>
         <style>{'body { background-color: black; }'}</style>
       </Helmet>
-      <video autoPlay loop muted playsinline>
+      <video autoPlay loop muted playsInline>
         <source src="/background-video.mp4" type="video/mp4"/>
         <source src="/background-video.ogv" type="video/ogg"/>
         <source src="/background-video.webm" type="video/webm"/>       
