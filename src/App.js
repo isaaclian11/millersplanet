@@ -8,6 +8,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Interstellar - Time Elapsed on Miller's Planet</title>
+        <style>{'body { background-color: black; }'}</style>
       </Helmet>
       <video autoPlay loop muted playsinline>
         <source src="/background-video.mp4" type="video/mp4"/>
@@ -17,7 +18,7 @@ function App() {
       <div className="text-container">
           <h2>Time</h2>
           <h1>E L A P S E D</h1>
-          <Clock className="clock-container"/>
+          <Clock />
       </div>
     </>
   );

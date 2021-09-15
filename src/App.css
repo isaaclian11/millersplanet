@@ -6,13 +6,16 @@
 }
 
 video {
+  position: absolute;
   object-fit: cover;
+  overflow: scroll;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
+  overscroll-behavior: contain;
 }
 
 .text-container {
@@ -29,14 +32,5 @@ video {
 
 h1, h2 {
   color: aliceblue;
-  font-family: "Gotham";
-}
-
-p {
-  color: aliceblue;
-  font-size: smaller;
-}
-
-.clock-container {
   font-family: "Gotham";
 }
