@@ -9,7 +9,9 @@ function App() {
         <meta charSet="utf-8" />
         <title>Interstellar - Time Elapsed on Miller's Planet</title>
       </Helmet>
-      <video src="/background-video.mp4" type="video/mp4" autoPlay loop muted playsinline/>
+      <video autoPlay loop muted playsinline>
+        <source src="/background-video.mp4" type="video/mp4" />
+      </video>
       <div className="text-container">
           <h2>Time</h2>
           <h1>E L A P S E D</h1>
