@@ -27,9 +27,14 @@ video {
   position: fixed;
 }
 
-h1 {
+h1, h2 {
   color: aliceblue;
   font-family: "Gotham";
+}
+
+p {
+  color: aliceblue;
+  font-size: smaller;
 }
 
 .clock-container {
