@@ -11,9 +11,7 @@ function App() {
         <style>{'body { background-color: black; }'}</style>
       </Helmet>
       <video autoPlay loop muted playsInline>
-        <source src="/background-video.mp4" type="video/mp4"/>
-        <source src="/background-video.ogv" type="video/ogg"/>
-        <source src="/background-video.webm" type="video/webm"/>       
+        <source src="/background.mp4" type="video/mp4"/>     
       </video>
       <div className="text-container">
           <h2>Time</h2>
