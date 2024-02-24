@@ -11,7 +11,7 @@ function Clock() {
         const hourDuration = moment.duration(duration).asHours();
         const hour = hourDuration/(61320)
         const ms = moment.duration(hour, 'hours').asMilliseconds();
-        const result = moment.utc(ms).format("HH:mm:ss");
+        const result = moment.utc(ms).format("HH:mm:ss.SSS");
         setClockState(result);
     }
 
